@@ -12,16 +12,10 @@
       "image",
       "button",
       "title",
+      "hero",
       "cards",
       "columns",
-      "fragment",
-      "header",
-      "hero",
-      "cta-buttons",
-      "featured-card",
-      "doodle-grid",
-      "load-more",
-      "footer"
+      "fragment"
     ]
   },
   {

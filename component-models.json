@@ -214,5 +214,222 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "header",
+    "fields": [
+      {
+        "component": "text",
+        "name": "logo",
+        "label": "Logo Text",
+        "value": "Doodle"
+      },
+      {
+        "component": "text",
+        "name": "loginText",
+        "label": "Login Button Text",
+        "value": "Login"
+      },
+      {
+        "component": "text",
+        "name": "loginUrl",
+        "label": "Login URL",
+        "value": "/login"
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Hero Title",
+        "value": "Doodle"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Hero Description",
+        "value": "Here everyone become stories, colours go a little crazy, and every doodle drops a joy bomb! Get a wild dose of wobbly line? Doodle Away."
+      },
+      {
+        "component": "reference",
+        "name": "backgroundImage",
+        "label": "Background Image"
+      }
+    ]
+  },
+  {
+    "id": "cta-button",
+    "fields": [
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Button Text"
+      },
+      {
+        "component": "text",
+        "name": "url",
+        "label": "Button URL"
+      },
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Button Variant",
+        "options": [
+          {
+            "text": "Primary",
+            "value": "primary"
+          },
+          {
+            "text": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "featured-card",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Card Title",
+        "value": "DOODLE OF THE WEEK"
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Featured Image"
+      },
+      {
+        "component": "text",
+        "name": "artistName",
+        "label": "Artist Name"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description"
+      },
+      {
+        "component": "text",
+        "name": "shareText",
+        "label": "Share Button Text",
+        "value": "Share Now"
+      }
+    ]
+  },
+  {
+    "id": "doodle-card",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Doodle Image"
+      },
+      {
+        "component": "text",
+        "name": "artistName",
+        "label": "Artist Name"
+      },
+      {
+        "component": "text",
+        "name": "doodleId",
+        "label": "Doodle ID"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description"
+      }
+    ]
+  },
+  {
+    "id": "load-more",
+    "fields": [
+      {
+        "component": "text",
+        "name": "buttonText",
+        "label": "Load More Button Text",
+        "value": "Load More"
+      },
+      {
+        "component": "text",
+        "name": "loadUrl",
+        "label": "Load More URL"
+      }
+    ]
+  },
+  {
+    "id": "footer",
+    "fields": [
+      {
+        "component": "container",
+        "name": "partnerLogos",
+        "label": "Partner Logos",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "logo",
+            "label": "Logo Image"
+          },
+          {
+            "component": "text",
+            "name": "alt",
+            "label": "Alt Text"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "links",
+        "label": "Footer Links",
+        "multi": true,
+        "fields": [
+          {
+            "component": "text",
+            "name": "text",
+            "label": "Link Text"
+          },
+          {
+            "component": "text",
+            "name": "url",
+            "label": "Link URL"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "socialLinks",
+        "label": "Social Media Links",
+        "multi": true,
+        "fields": [
+          {
+            "component": "text",
+            "name": "platform",
+            "label": "Platform"
+          },
+          {
+            "component": "text",
+            "name": "url",
+            "label": "Social URL"
+          },
+          {
+            "component": "text",
+            "name": "icon",
+            "label": "Icon Class"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "copyright",
+        "label": "Copyright Text"
+      }
+    ]
   }
 ]
